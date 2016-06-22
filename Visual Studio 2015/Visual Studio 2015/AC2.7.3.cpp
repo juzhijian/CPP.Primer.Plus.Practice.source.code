@@ -1,22 +1,27 @@
-#include <iostream>
-using namespace std;
-void mice();
-void run();
+#include "one.h"
+#include "Amain.h"
+
+void AC_mice();
+void AC_run();
 
 void AC()
 {
-	mice();
-	mice();
-	run();
-	run();
+	AC_mice();
+	AC_mice();
+	AC_run();
+	AC_run();
+	cin.get();
+	cin.get();
+	system("Cls");
+	Amain();
 }
 
-void mice()
+void AC_mice()
 {
 	cout << "Three blind mice" << endl;
 }
 
-void run()
+void AC_run()
 {
 	cout << "See how they run" << endl;
 }

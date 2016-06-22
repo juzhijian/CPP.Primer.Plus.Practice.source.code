@@ -1,20 +1,23 @@
-#include <iostream>
+#include "one.h"
+#include "Amain.h"
 
-using namespace std;
-
-void change(int x, int f);
+void AG_change(int,int);
 
 void AG()
 {
-	int x, f;
+	int AG_x, AG_f;
 	cout << "Enter the number of hours：";
-	cin >> x;
+	cin >> AG_x;
 	cout << "Enter the number of minutes：";
-	cin >> f;
-	change(x, f);
+	cin >> AG_f;
+	AG_change(AG_x, AG_f);
+	cin.get();
+	cin.get();
+	system("Cls");
+	Amain();
 }
 
-void change(int x, int f)
+void AG_change(int AG_x, int AG_f)
 {
-	cout << "Time:" << x << ":" << f << endl;
+	cout << "Time:" << AG_x << ":" << AG_f << endl;
 }

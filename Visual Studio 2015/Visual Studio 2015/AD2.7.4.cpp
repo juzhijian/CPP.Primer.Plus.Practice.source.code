@@ -1,17 +1,21 @@
-#include <iostream>
-using namespace std;
+#include "one.h"
+#include "Amain.h"
 
-int age(int);
+int AD_age(int);
 
 void AD()
 {
 	cout << "请输入你的年龄：";
-	int dn;
-	cin >> dn;
-	cout << dn << "岁包含" << age(dn) << "个月" << endl;
+	int AD_n;
+	cin >> AD_n;
+	cout << AD_n << "岁包含" << AD_age(AD_n) << "个月" << endl;
+	cin.get();
+	cin.get();
+	system("Cls");
+	Amain();
 }
 
-int age(int dna)
+int AD_age(int AD_na)
 {
-	return dna * 12;
+	return AD_na * 12;
 }

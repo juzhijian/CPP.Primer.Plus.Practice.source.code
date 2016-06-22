@@ -9,7 +9,7 @@ void Amain()
 		cout << "请选择要进入的题目：\n";
 		cout << "1、地方\n";
 		cout << "2、地方儿\n";
-		cout << "3、返回上一级\n";
+		cout << "8、返回上一级\n";
 		int Amain_a;
 		cin >> Amain_a;
 		switch (Amain_a)
@@ -20,10 +20,36 @@ void Amain()
 			Amain_i = 0;
 			break;
 		case 2:
-			//b();
+			system("Cls");
+			AB();
 			Amain_i = 0;
 			break;
 		case 3:
+			system("Cls");
+			AC();
+			Amain_i = 0;
+			break;
+		case 4:
+			system("Cls");
+			AD();
+			Amain_i = 0;
+			break;
+		case 5:
+			system("Cls");
+			AE();
+			Amain_i = 0;
+			break;
+		case 6:
+			system("Cls");
+			AF();
+			Amain_i = 0;
+			break;
+		case 7:
+			system("Cls");
+			AG();
+			Amain_i = 0;
+			break;
+		case 8:
 			system("Cls");
 			main();
 			Amain_i = 0;
