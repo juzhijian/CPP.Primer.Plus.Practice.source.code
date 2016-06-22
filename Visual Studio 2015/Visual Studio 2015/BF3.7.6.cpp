@@ -1,24 +1,24 @@
-//Æû³µºÄÓÍÁ¿-ÃÀ¹ú(mpg)orÅ·ÖŞ·ç¸ñ(L/100Km)
+//æ±½è½¦è€—æ²¹é‡-ç¾å›½(mpg)oræ¬§æ´²é£æ ¼(L/100Km)
 #include <iostream>
 
 int BF()
 {
 	using namespace std;
-	cout << "ÇëÊäÈëÇı³µÀï³Ì£¨Ó¢Àï£©:";
+	cout << "è¯·è¾“å…¥é©±è½¦é‡Œç¨‹ï¼ˆè‹±é‡Œï¼‰:";
 	double m_distance;
 	cin >> m_distance;
-	cout << "ÇëÊäÈëÊ¹ÓÃÆûÓÍÁ¿£¨¼ÓÂØ£©:";
+	cout << "è¯·è¾“å…¥ä½¿ç”¨æ±½æ²¹é‡ï¼ˆåŠ ä»‘ï¼‰:";
 	double m_gasoline;
 	cin >> m_gasoline;
-	cout << "ÄúµÄ³µÃ¿¼ÓÂØ¿ÉÒÔÅÜ " << m_distance / m_gasoline << " Ó¢Àï\n";
-	cout << "Å·ÖŞ·ç¸ñ¼ÆËã:\n";
-	cout << "ÇëÊäÈëÇı³µÀï³Ì£¨¹«Àï£©:";
+	cout << "æ‚¨çš„è½¦æ¯åŠ ä»‘å¯ä»¥è·‘ " << m_distance / m_gasoline << " è‹±é‡Œ\n";
+	cout << "æ¬§æ´²é£æ ¼è®¡ç®—:\n";
+	cout << "è¯·è¾“å…¥é©±è½¦é‡Œç¨‹ï¼ˆå…¬é‡Œï¼‰:";
 	double k_distance;
 	cin >> k_distance;
-	cout << "ÇëÊäÈëÊ¹ÓÃÆûÓÍÁ¿£¨Éı£©:";
+	cout << "è¯·è¾“å…¥ä½¿ç”¨æ±½æ²¹é‡ï¼ˆå‡ï¼‰:";
 	double k_gasoline;
 	cin >> k_gasoline;
-	cout << "ÔÚÅ·ÖŞ·ç¸ñ:" << "ÄúµÄ³µÊ¹ÓÃ " << 100 * k_gasoline / k_distance << " ÉıÆûÓÍ¿ÉÒÔÅÜ100¹«Àï\n";
+	cout << "åœ¨æ¬§æ´²é£æ ¼:" << "æ‚¨çš„è½¦ä½¿ç”¨ " << 100 * k_gasoline / k_distance << " å‡æ±½æ²¹å¯ä»¥è·‘100å…¬é‡Œ\n";
 	cin.get();
 	cin.get();
 	return 0;

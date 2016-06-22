@@ -2,7 +2,7 @@
 #include "Amain.h"
 void AA()
 {
-	cout << "我的名字叫中国\n我的家在东北" << endl;
+	cout << "鎴戠殑鍚嶅瓧鍙腑鍥絓n鎴戠殑瀹跺湪涓滃寳" << endl;
 	cin.get();
 	cin.get();
 	system("Cls");

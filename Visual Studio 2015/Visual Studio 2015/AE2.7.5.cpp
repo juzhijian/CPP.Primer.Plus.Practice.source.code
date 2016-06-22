@@ -4,10 +4,10 @@ double AE_change(double nx);
 
 void AE()
 {
-	cout << "ÇëÊäÈëÉãÊÏ¶È£º";
+	cout << "è¯·è¾“å…¥æ‘„æ°åº¦ï¼š";
 	double n;
 	cin >> n;
-	cout << n << "ÉãÊÏ¶ÈµÈÓÚ" << AE_change(n) << "»ªÊÏ¶È" << endl;
+	cout << n << "æ‘„æ°åº¦ç­‰äºŽ" << AE_change(n) << "åŽæ°åº¦" << endl;
 }
 
 double AE_change(double nx)

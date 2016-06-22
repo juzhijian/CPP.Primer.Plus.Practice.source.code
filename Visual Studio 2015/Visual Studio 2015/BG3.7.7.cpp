@@ -3,12 +3,12 @@
 int BG()
 {
 	using namespace std;
-	cout << "ÇëÊäÈëÅ·ÖŞ·ç¸ñµÄºÄÓÍÁ¿: ";
+	cout << "è¯·è¾“å…¥æ¬§æ´²é£æ ¼çš„è€—æ²¹é‡: ";
 	double v = 0;
 	cin >> v;
-	const double Y_TO_G = 62.14;//Ó¢Àï×ª¹«Àï
-	const double C_TO_V = 3.875;//¼ÓÂØ×ªÉı
-	cout << "ÃÀ¹ú·ç¸ñºÄÓÍÁ¿Îª: " << Y_TO_G * C_TO_V / v << endl;
+	const double Y_TO_G = 62.14;//è‹±é‡Œè½¬å…¬é‡Œ
+	const double C_TO_V = 3.875;//åŠ ä»‘è½¬å‡
+	cout << "ç¾å›½é£æ ¼è€—æ²¹é‡ä¸º: " << Y_TO_G * C_TO_V / v << endl;
 	cin.get();
 	cin.get();
 	return 0;

@@ -6,10 +6,10 @@ void Amain()
 	int Amain_i = 1;
 	while (Amain_i == 1)
 	{
-		cout << "ÇëÑ¡ÔñÒª½øÈëµÄÌâÄ¿£º\n";
-		cout << "1¡¢µØ·½\n";
-		cout << "2¡¢µØ·½¶ù\n";
-		cout << "3¡¢·µ»ØÉÏÒ»¼¶\n";
+		cout << "è¯·é€‰æ‹©è¦è¿›å…¥çš„é¢˜ç›®ï¼š\n";
+		cout << "1ã€åœ°æ–¹\n";
+		cout << "2ã€åœ°æ–¹å„¿\n";
+		cout << "3ã€è¿”å›žä¸Šä¸€çº§\n";
 		int Amain_a;
 		cin >> Amain_a;
 		switch (Amain_a)
@@ -28,7 +28,7 @@ void Amain()
 			main();
 			Amain_i = 0;
 			break;
-		default:cout << "ÄãÊäÈëµÄÐòºÅÃ»ÓÐ¶ÔÓ¦µÄ½á¹û£¬ÇëÖØÐÂÊäÈë¡£" << endl;
+		default:cout << "ä½ è¾“å…¥çš„åºå·æ²¡æœ‰å¯¹åº”çš„ç»“æžœï¼Œè¯·é‡æ–°è¾“å…¥ã€‚" << endl;
 			break;
 		}
 	}

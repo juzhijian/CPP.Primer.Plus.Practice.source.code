@@ -1,23 +1,23 @@
-//ÒÔ¶È¡¢·Ö¡¢ÃëÊäÈë£¬ÒÔ¶ÈÊä³ö
+//ä»¥åº¦ã€åˆ†ã€ç§’è¾“å…¥ï¼Œä»¥åº¦è¾“å‡º
 #include <iostream>
 const int minutes_per_degree = 60;
 const int seconds_per_minute = 60;
 int BC()
 {
 	using namespace std;
-	cout << "Ê¹ÓÃ¶È¡¢·Ö¡¢Ãë¡¢ÊäÈëÒ»¸öÎ³¶È\n";
-	cout << "Ê×ÏÈ,ÊäÈë¶È:";
+	cout << "ä½¿ç”¨åº¦ã€åˆ†ã€ç§’ã€è¾“å…¥ä¸€ä¸ªçº¬åº¦\n";
+	cout << "é¦–å…ˆ,è¾“å…¥åº¦:";
 	int degree;
 	cin >> degree;
-	cout << "ÏÂÒ»²½£¬ÊäÈë·Ö:";
+	cout << "ä¸‹ä¸€æ­¥ï¼Œè¾“å…¥åˆ†:";
 	int minute;
 	cin >> minute;
-	cout << "×îºó£¬ÊäÈëÃë:";
+	cout << "æœ€åï¼Œè¾“å…¥ç§’:";
 	int second;
 	cin >> second;
 	double show_in_degree;
 	show_in_degree = (double)degree + (double)minute / minutes_per_degree + (double)second / minutes_per_degree / seconds_per_minute;
-	cout << degree << " ¶È," << minute << " ·Ö," << second << " Ãë =" << show_in_degree << " ¶È\n";
+	cout << degree << " åº¦," << minute << " åˆ†," << second << " ç§’ =" << show_in_degree << " åº¦\n";
 	cin.get();
 	cin.get();
 	return 0;

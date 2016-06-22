@@ -3,9 +3,9 @@ using namespace std;
 
 void AB()
 {
-	cout << "ÇëÊäÈëÒ»¸öÒÔlongÎªµ¥Î»µÄ¾àÀë£º";
+	cout << "è¯·è¾“å…¥ä¸€ä¸ªä»¥longä¸ºå•ä½çš„è·ç¦»ï¼š";
 	int bl, bm;
 	cin >> bl;
 	bm = bl * 220;
-	cout << bl << "long=" << bm << "Âë" << endl;
+	cout << bl << "long=" << bm << "ç " << endl;
 }

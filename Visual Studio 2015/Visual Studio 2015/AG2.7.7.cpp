@@ -7,9 +7,9 @@ void change(int x, int f);
 void AG()
 {
 	int x, f;
-	cout << "Enter the number of hours£º";
+	cout << "Enter the number of hoursï¼š";
 	cin >> x;
-	cout << "Enter the number of minutes£º";
+	cout << "Enter the number of minutesï¼š";
 	cin >> f;
 	change(x, f);
 }

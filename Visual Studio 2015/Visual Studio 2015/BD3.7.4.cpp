@@ -7,7 +7,7 @@ const int seconds_per_minute = 60;
 int BD()
 {
 	using namespace std;
-	cout << "ÊäÈëÃëÊı£º";
+	cout << "è¾“å…¥ç§’æ•°ï¼š";
 	long seconds;
 	cin >> seconds;
 	int day, hour, minutes, second;
@@ -15,7 +15,7 @@ int BD()
 	hour = seconds / seconds_per_minute / minutes_per_hour%hours_per_day;
 	minutes = seconds / seconds_per_minute%minutes_per_hour;
 	second = seconds%seconds_per_minute;
-	cout << seconds << "Ãë = " << day << " Ìì£¬" << hour << " Ğ¡Ê±£¬" << minutes << " ·Ö£¬" << second << " Ãë\n";
+	cout << seconds << "ç§’ = " << day << " å¤©ï¼Œ" << hour << " å°æ—¶ï¼Œ" << minutes << " åˆ†ï¼Œ" << second << " ç§’\n";
 	cin.get();
 	cin.get();
 	return 0;

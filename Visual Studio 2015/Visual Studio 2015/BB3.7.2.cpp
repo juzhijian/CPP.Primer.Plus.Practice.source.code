@@ -1,33 +1,33 @@
-//¼ÆËãÏàÓ¦µÄÌåÖØÖ¸Êı
+//è®¡ç®—ç›¸åº”çš„ä½“é‡æŒ‡æ•°
 #include <iostream>
-const int inch_per_feet = 12;//1Ó¢³ß=12Ó¢´ç
-const double meter_per_inch = 0.0254;//1Ó¢´ç=0.0254Ã×
-const double pound_per_kilogram = 2.2;//1Ç§¿Ë=2.2°õ
+const int inch_per_feet = 12;//1è‹±å°º=12è‹±å¯¸
+const double meter_per_inch = 0.0254;//1è‹±å¯¸=0.0254ç±³
+const double pound_per_kilogram = 2.2;//1åƒå…‹=2.2ç£…
 
 int BB()
 {
 	using namespace std;
-	cout << "ÇëÊäÈëÄúµÄÉí¸ß:" << endl;
-	cout << "Ê×ÏÈ£¬ÇëÊäÈëÄúÉí¸ßµÄÓ¢³ß²¿·Ö£º____\b\b\b\b" << endl;
-	int ht_feet;//Ó¢³ß
+	cout << "è¯·è¾“å…¥æ‚¨çš„èº«é«˜:" << endl;
+	cout << "é¦–å…ˆï¼Œè¯·è¾“å…¥æ‚¨èº«é«˜çš„è‹±å°ºéƒ¨åˆ†ï¼š____\b\b\b\b" << endl;
+	int ht_feet;//è‹±å°º
 	cin >> ht_feet;
-	cout << "È»ºó£¬ÇëÊäÈëÄúÉí¸ßµÄÓ¢´ç²¿·Ö£º____\b\b\b\b" << endl;
-	int ht_inch;//Ó¢´ç
+	cout << "ç„¶åï¼Œè¯·è¾“å…¥æ‚¨èº«é«˜çš„è‹±å¯¸éƒ¨åˆ†ï¼š____\b\b\b\b" << endl;
+	int ht_inch;//è‹±å¯¸
 	cin >> ht_inch;
-	cout << "ÏÖÔÚ£¬ÇëÊäÈëÄúµÄÌåÖØ£º____\b\b\b\b£¨°õ£©" << endl;
-	double wt_pound;// °õ
+	cout << "ç°åœ¨ï¼Œè¯·è¾“å…¥æ‚¨çš„ä½“é‡ï¼š____\b\b\b\bï¼ˆç£…ï¼‰" << endl;
+	double wt_pound;// ç£…
 	cin >> wt_pound;
 	int inch;
-	inch = ht_feet*inch_per_feet + ht_inch;//Éí¸ßÓ¢´ç
-	double ht_meter;//Éí¸ßÃ×
+	inch = ht_feet*inch_per_feet + ht_inch;//èº«é«˜è‹±å¯¸
+	double ht_meter;//èº«é«˜ç±³
 	ht_meter = inch*meter_per_inch;
-	double wt_kilogram;//ÌåÖØÇ§¿Ë
+	double wt_kilogram;//ä½“é‡åƒå…‹
 	wt_kilogram = wt_pound / pound_per_kilogram;
-	cout << "ÄãµÄ¸öÈËÉíÌåĞÅÏ¢ÈçÏÂ:" << endl;
-	cout << "Éí¸ß£º" << inch << "(Ó¢³ß inch£©\n" << "Éí¸ß£º" << ht_meter << "(Ã× meter)\n" << "ÌåÖØ£º" << wt_kilogram << "(Ç§¿Ë kilogram)\n";
+	cout << "ä½ çš„ä¸ªäººèº«ä½“ä¿¡æ¯å¦‚ä¸‹:" << endl;
+	cout << "èº«é«˜ï¼š" << inch << "(è‹±å°º inchï¼‰\n" << "èº«é«˜ï¼š" << ht_meter << "(ç±³ meter)\n" << "ä½“é‡ï¼š" << wt_kilogram << "(åƒå…‹ kilogram)\n";
 	double BMI;
 	BMI = wt_kilogram / (ht_meter*ht_meter);
-	cout << "ÄúµÄÉíÌåÖ¸ÊıÊÇ£º" << BMI << endl;
+	cout << "æ‚¨çš„èº«ä½“æŒ‡æ•°æ˜¯ï¼š" << BMI << endl;
 	cin.get();
 	cin.get();
 	return 0;

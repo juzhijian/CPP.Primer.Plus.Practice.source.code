@@ -5,10 +5,10 @@ int age(int);
 
 void AD()
 {
-	cout << "ÇëÊäÈëÄãµÄÄêÁä£º";
+	cout << "è¯·è¾“å…¥ä½ çš„å¹´é¾„ï¼š";
 	int dn;
 	cin >> dn;
-	cout << dn << "Ëê°üº¬" << age(dn) << "¸öÔÂ" << endl;
+	cout << dn << "å²åŒ…å«" << age(dn) << "ä¸ªæœˆ" << endl;
 }
 
 int age(int dna)

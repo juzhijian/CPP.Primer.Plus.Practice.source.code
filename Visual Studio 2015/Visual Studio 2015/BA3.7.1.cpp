@@ -1,16 +1,16 @@
 //
 #include <iostream>
-const char inch_per_feet = 12;//const³£Á¿1Ó¢³ß=12Ó¢´ç
+const char inch_per_feet = 12;//constå¸¸é‡1è‹±å°º=12è‹±å¯¸
 
 int BA()
 {
 	using namespace std;
-	cout << "ÇëÊäÈëÄãµÄÉí¸ß£¨Ó¢´ç£©£º___\b\b\b";
+	cout << "è¯·è¾“å…¥ä½ çš„èº«é«˜ï¼ˆè‹±å¯¸ï¼‰ï¼š___\b\b\b";
 	int ht_inch;
 	cin >> ht_inch;
-	int ht_feet = ht_inch / inch_per_feet;//È¡ÉÌ
-	int rm_inch = ht_inch%inch_per_feet;//È¡Óà
-	cout << "ÄãµÄÉí¸ßÊÇ£º" << ht_feet << "Ó¢³ß£¬ºÍ" << rm_inch << "Ó¢´ç\n";
+	int ht_feet = ht_inch / inch_per_feet;//å–å•†
+	int rm_inch = ht_inch%inch_per_feet;//å–ä½™
+	cout << "ä½ çš„èº«é«˜æ˜¯ï¼š" << ht_feet << "è‹±å°ºï¼Œå’Œ" << rm_inch << "è‹±å¯¸\n";
 	cin.get();
 	cin.get();
 	return 0;
