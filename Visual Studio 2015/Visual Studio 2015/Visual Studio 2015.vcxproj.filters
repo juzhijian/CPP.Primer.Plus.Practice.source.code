@@ -19,6 +19,12 @@
     <Filter Include="源文件\第三章编程练习">
       <UniqueIdentifier>{c5140829-07d8-4120-a4a9-c43408640767}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\目录文件">
+      <UniqueIdentifier>{5401c30b-bb84-4dea-9385-d2378c3dfd95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\目录文件">
+      <UniqueIdentifier>{dd796075-1587-4890-93eb-a2e053813ad9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AA2.7.1.cpp">
@@ -67,18 +73,18 @@
       <Filter>源文件\第三章编程练习</Filter>
     </ClCompile>
     <ClCompile Include="Amain.cpp">
-      <Filter>源文件\第二章编程练习</Filter>
+      <Filter>源文件\目录文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Amain.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="one.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Amain.h">
+      <Filter>头文件\目录文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
