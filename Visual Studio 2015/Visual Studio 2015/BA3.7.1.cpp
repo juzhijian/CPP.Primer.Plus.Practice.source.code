@@ -1,4 +1,4 @@
-//
+﻿//
 #include <iostream>
 const char inch_per_feet = 12;//const常量1英尺=12英寸
 

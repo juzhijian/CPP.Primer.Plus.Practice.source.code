@@ -1,4 +1,4 @@
-//以度、分、秒输入，以度输出
+﻿//以度、分、秒输入，以度输出
 #include <iostream>
 const int minutes_per_degree = 60;
 const int seconds_per_minute = 60;

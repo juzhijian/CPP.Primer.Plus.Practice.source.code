@@ -1,4 +1,4 @@
-//计算相应的体重指数
+﻿//计算相应的体重指数
 #include <iostream>
 const int inch_per_feet = 12;//1英尺=12英寸
 const double meter_per_inch = 0.0254;//1英寸=0.0254米

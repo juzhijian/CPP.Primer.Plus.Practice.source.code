@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 
 const int hours_per_day = 24;
 const int minutes_per_hour = 60;

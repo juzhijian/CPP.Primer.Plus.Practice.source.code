@@ -1,4 +1,4 @@
-#include "one.h"
+﻿#include "one.h"
 #include "Amain.h"
 
 void Amain()
