@@ -161,6 +161,7 @@
     <ClCompile Include="BE3.7.5.cpp" />
     <ClCompile Include="BF3.7.6.cpp" />
     <ClCompile Include="BG3.7.7.cpp" />
+    <ClCompile Include="CA4.13.1.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>

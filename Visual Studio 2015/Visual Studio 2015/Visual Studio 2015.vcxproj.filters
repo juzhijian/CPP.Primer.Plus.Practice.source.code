@@ -25,6 +25,9 @@
     <Filter Include="头文件\目录文件">
       <UniqueIdentifier>{dd796075-1587-4890-93eb-a2e053813ad9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\第四章编程练习">
+      <UniqueIdentifier>{3c4ddfdf-6e44-462a-919d-6fad9f0ea253}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AA2.7.1.cpp">
@@ -74,6 +77,9 @@
     </ClCompile>
     <ClCompile Include="Amain.cpp">
       <Filter>源文件\目录文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CA4.13.1.cpp">
+      <Filter>源文件\第四章编程练习</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
