@@ -1,8 +1,7 @@
-﻿#include <iostream>
+﻿#include "one.h"
+#include "Cmain.h"
 
 const int Asize = 20;
-
-using namespace std;
 
 struct student //定义结构描述
 {
@@ -14,10 +13,11 @@ struct student //定义结构描述
 
 void display(student);
 
-int main()
+void CA()
 {
 	cout << "what is your first name?" << endl;
 	student lcg;//创建结构变量（结构数据对象）
+	cin.get();//正常没有
 	cin.getline(lcg.firstname, Asize);
 	cout << "what is your last name?" << endl;
 	cin.getline(lcg.lastname, Asize);
@@ -26,7 +26,10 @@ int main()
 	cout << "what is your age?" << endl;
 	cin >> lcg.age;
 	display(lcg);
-	return 0;
+	cin.get();
+	cin.get();
+	system("Cls");
+	Cmain();
 }
 
 void display(student name)

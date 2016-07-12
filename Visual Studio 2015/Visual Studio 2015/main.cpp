@@ -17,6 +17,11 @@ void main()
 			Amain();
 			main_i = 0;
 			break;
+		case 3:
+			system("Cls");
+			Cmain();
+			main_i = 0;
+			break;
 		default:cout << "你输入的序号没有对应的结果，请重新输入。" << endl;
 			break;
 		}

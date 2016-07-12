@@ -81,6 +81,36 @@
     <ClCompile Include="CA4.13.1.cpp">
       <Filter>源文件\第四章编程练习</Filter>
     </ClCompile>
+    <ClCompile Include="CB4.13.2.cpp">
+      <Filter>源文件\第四章编程练习</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmain.cpp">
+      <Filter>源文件\目录文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CC4.13.3.cpp">
+      <Filter>源文件\第四章编程练习</Filter>
+    </ClCompile>
+    <ClCompile Include="CD4.13.4.cpp">
+      <Filter>源文件\第四章编程练习</Filter>
+    </ClCompile>
+    <ClCompile Include="CE4.13.5.cpp">
+      <Filter>源文件\第四章编程练习</Filter>
+    </ClCompile>
+    <ClCompile Include="CF4.13.6.cpp">
+      <Filter>源文件\第四章编程练习</Filter>
+    </ClCompile>
+    <ClCompile Include="CG4.13.7.cpp">
+      <Filter>源文件\第四章编程练习</Filter>
+    </ClCompile>
+    <ClCompile Include="CH4.13.8.cpp">
+      <Filter>源文件\第四章编程练习</Filter>
+    </ClCompile>
+    <ClCompile Include="CI4.13.9.cpp">
+      <Filter>源文件\第四章编程练习</Filter>
+    </ClCompile>
+    <ClCompile Include="CJ4.13.10.cpp">
+      <Filter>源文件\第四章编程练习</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -90,6 +120,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Amain.h">
+      <Filter>头文件\目录文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmain.h">
       <Filter>头文件\目录文件</Filter>
     </ClInclude>
   </ItemGroup>

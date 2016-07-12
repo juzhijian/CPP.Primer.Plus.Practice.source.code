@@ -162,10 +162,21 @@
     <ClCompile Include="BF3.7.6.cpp" />
     <ClCompile Include="BG3.7.7.cpp" />
     <ClCompile Include="CA4.13.1.cpp" />
+    <ClCompile Include="CB4.13.2.cpp" />
+    <ClCompile Include="CC4.13.3.cpp" />
+    <ClCompile Include="CD4.13.4.cpp" />
+    <ClCompile Include="CE4.13.5.cpp" />
+    <ClCompile Include="CF4.13.6.cpp" />
+    <ClCompile Include="CG4.13.7.cpp" />
+    <ClCompile Include="CH4.13.8.cpp" />
+    <ClCompile Include="CI4.13.9.cpp" />
+    <ClCompile Include="CJ4.13.10.cpp" />
+    <ClCompile Include="Cmain.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Amain.h" />
+    <ClInclude Include="Cmain.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="one.h" />
   </ItemGroup>
