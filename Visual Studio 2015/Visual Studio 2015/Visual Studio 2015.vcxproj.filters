@@ -28,6 +28,9 @@
     <Filter Include="源文件\第四章编程练习">
       <UniqueIdentifier>{3c4ddfdf-6e44-462a-919d-6fad9f0ea253}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\第五章编程练习">
+      <UniqueIdentifier>{6b022b68-01f7-4cae-bbe1-f68ec16ee77a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AA2.7.1.cpp">
@@ -110,6 +113,9 @@
     </ClCompile>
     <ClCompile Include="CJ4.13.10.cpp">
       <Filter>源文件\第四章编程练习</Filter>
+    </ClCompile>
+    <ClCompile Include="DA5.1.cpp">
+      <Filter>源文件\第五章编程练习</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

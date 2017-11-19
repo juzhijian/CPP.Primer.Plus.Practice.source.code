@@ -172,6 +172,7 @@
     <ClCompile Include="CI4.13.9.cpp" />
     <ClCompile Include="CJ4.13.10.cpp" />
     <ClCompile Include="Cmain.cpp" />
+    <ClCompile Include="DA5.1.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
